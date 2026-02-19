@@ -1,0 +1,17 @@
+[
+     {
+       "countryPrefix" : "+49",
+       "country" : "de",
+       "nationalPrefix" : "0151",        
+       "nationalBody" : "12345678",
+       "type" : "mobile"
+    },
+    {
+        "countryPrefix" : "+49",
+        "country" : "de",
+        "nationalPrefix" : "030",        
+        "nationalBody" : "98765432",
+        "type" : "landline"
+     } 
+   
+]

@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Playwright Berichte und Artefakte
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+# Umgebungsvariablen (sehr wichtig!)
+.env
+
+# Lokale Playwright Speicher
+state.json
+
+# aktuell nicht mehr verwendete Funktionen (backup für spätere Verwendung)
+dist/tests/deprecated
+
+# Original des Titelbilds
+assets/testmonkey.png
+
+# echte Testdaten
+dist/src/data/phone-baseData.json
+dist/src/data/eMail-baseData.json
+dist/src/data/complete-formData.json    

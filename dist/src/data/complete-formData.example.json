@@ -1,0 +1,12 @@
+{
+    "firstName" : "Max",
+    "lastName" : "Mustermann",
+    "salutationId" : "mr",
+    "email" : "test@example.com",
+    "password" : "testPassword123",
+    "country" : "Deutschland",
+    "postCode" : "12345",
+    "city" : "Musterstadt",
+    "streetFull" : "Musterstraße 123",
+    "phone" : "+49301234567"
+}
