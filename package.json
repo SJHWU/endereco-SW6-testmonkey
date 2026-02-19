@@ -1,0 +1,28 @@
+{
+  "name": "endereco-for-sw-automated-testing",
+  "version": "1.0.0",
+  "description": "Automated testing for Endereco email validation",
+  "type": "module",
+  "scripts": {
+    "test:ui": "playwright test --ui",
+    "test:email": "playwright test eMailCheck.spec.js",
+    "test:email:headed": "playwright test eMailCheck.spec.js --headed",
+    "test:phone": "playwright test phoneCheck.spec.js",
+    "test:phone:headed": "playwright test phoneCheck.spec.js --headed"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "email",
+    "validation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "node-fetch": "^3.3.2"
+  }
+}
